@@ -9,22 +9,15 @@ This repository serves as a starting point and a reference for future iOS projec
 - **Modular Architecture**: Utilizing MVVM architecture promotes cleaner separation of concerns, enhancing maintainability and testability while facilitating reusable components within the project.
 - **Clean Codebase**: Follows best practices for writing clean, maintainable, and scalable code.
 - **Networking Layer**: Integrated networking layer for making API requests, with support for various request types, error handling and caching strategies.
+- **Renaming Script**: Simplifies the renaming process for Xcode projects by providing a Python script [rename_xcode_project.py](rename_xcode_project.py) that automates the necessary steps, including renaming the project file, updating internal references, and optionally renaming the main project folder.
+    - Place the script in the project directory and execute it with python rename_xcode_project.py.
+    - Follow on-screen instructions to enter the new project name.
+    - The script automates renaming the project file, updating internal references, and optionally renaming the main project folder.
 
-## Getting Started
-
-To get started with your new project based on this template, follow these steps:
-
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/your-username/ios-app-template.git`.
-2. **Install Dependencies**: If using CocoaPods, run `pod install` to install the required dependencies.
-3. **Customize Configuration**: Update the project configuration files (e.g., `Info.plist`, `AppDelegate.swift`) with your app's details.
-4. **Customize UI**: Customize the UI components and layouts in the `Views` and `ViewControllers` directories to match your app's design.
-5. **Implement Features**: Implement additional features or customize existing ones to meet your app's requirements.
-6. **Test Your App**: Test your app thoroughly on different devices and iOS versions to ensure compatibility and reliability.
-7. **Deploy Your App**: Deploy your app to the App Store or distribute it internally using services like TestFlight or Firebase App Distribution.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug fixes, or new features to propose, feel free to open an issue or submit a pull request. Please follow the [contribution guidelines](CONTRIBUTING.md) when contributing to this project.
+Contributions are welcome! If you have any suggestions, bug fixes, or new features to propose, feel free to open an issue or submit a pull request.
 
 ## License
 
