@@ -10,7 +10,7 @@ This repository serves as a starting point and a reference for future iOS projec
 - **Clean Codebase**: Follows best practices for writing clean, maintainable, and scalable code.
 - **Networking Layer**: Integrated networking layer for making API requests, with support for various request types, error handling and caching strategies.
 - **Renaming Script**: Simplifies the renaming process for Xcode projects by providing a Python script [rename_xcode_project.py](rename_xcode_project.py) that automates the necessary steps, including renaming the project file, updating internal references, and optionally renaming the main project folder.
-    - Place the script in the project directory and execute it with python rename_xcode_project.py.
+    - Place the script in the project directory and execute it with ```python3 rename_xcode_project.py```.
     - Follow on-screen instructions to enter the new project name.
     - The script automates renaming the project file, updating internal references, and optionally renaming the main project folder.
 
